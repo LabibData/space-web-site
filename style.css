@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f4f4f4;
+    width: 100%;
+    position: fixed;
+    z-index: 999;  /* Can Fixed the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;  /*space x and y axis */
+}
+
+
+header .logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+header .navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+header .navigation a:hover {
+    color: blueviolet;
+}
+
+
+.main {
+    padding: 100px 200px;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    background: url(./imgs/Untitled-1.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 5px;
+    color:rgb(9, 63, 179);
+    font-size: 2.1em;
+    font-weight: 700;
+}
+
+.main h3 {
+    color: #6a7574cb;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.main .main-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    background-color:rgb(9, 63, 179);
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 11px;
+    transition: 0.7s ease;
+}
+
+.main .main-btn:hover {
+    background-color:#0306af;
+    transform: scale(1.1);
+}
+
+.main .social-icons a{
+    color:#fff;
+    font-size: 1.7em;
+    margin-left: 27px;
+    padding-left: 2px;
+}
+
+.main .social-icons {
+    margin-left: -12px;
+}
+
+section {
+
+    padding: 100px 200px;
+    width: 100%;
+    align-items: center;
+}
+
+
+section .title {
+    display: flex;
+    justify-content: center;
+    color: rgb(9, 63, 179);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+section .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section .card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 10px 20px rgba(1 1 1 / 15%);
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+section .card:hover {
+    transform: scale(1.1);
+}
+
+section .icon {
+    color: rgb(9, 63, 179);
+    font-size: 8em;
+    text-align: center;
+}
+
+section .icon i {
+    color: #0306af;
+    transition: 0.7s ease;
+}
+
+/* Very Important */
+section .card:hover .icon i{
+    color: #cccf0df1;
+}
+
+
+section .info {
+    text-align: center;
+}
+
+section .info .h3 {
+    color: rgb(9, 63, 179);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+section .info p {
+    font-weight: 400;
+}
+
+
+section .projects .content {
+    margin-top: 30px;
+}
+
+section .project-card {
+    /* border: 1px solid #08091b; */
+    box-shadow: 0 10px 20px rgba(1 1 1 / 15%);
+    height: 19em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+section .project-card:hover {
+    transform: scale(1.1);
+}
+
+section .project-card:hover .project-title a {
+    transition: 0.7s ease;
+    color: #272526d0;
+}
+
+section .project-image img {
+    width: 100%;
+    background-color: #08091b;
+}
+
+section .project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+
+section .project-info {
+    padding: 1em;
+    padding-bottom: 23px;
+}
+
+
+section .project-info .project-category {
+    font-size: 0.8em;
+}
+
+section .project-info .project-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+section .project-info .project-title .more-details {
+    text-decoration: none;
+    color: #0306af;
+}
+
+section .project-info .project-title .more-details:hover {
+    color:rgb(138, 150, 150);
+}
+
+
+section .pro_img {
+    width: 368px;
+    height: 206.23px;
+}
+
+
+
+
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-left,
+.footer-right {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.footer-left h3,
+.footer-right h3 {
+    color: #555;
+}
+
+.footer-bottom {
+    background-color: #ddd;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+footer .footer-bottom .social-icons a{
+    color:#fff;
+    font-size: 1.7em;
+    margin-left: 27px;    
+}
+
+footer .footer-bottom .social-icons {
+    /* padding-left: 54px; */
+    padding-right: 27px;
+    transition: 0.7s ease;
+}
+
+
+
+/*88888888888888888888888888888888888888888888888888888888888888*/
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .main {
+        padding: 100px 63px;
+        background-size: 100.5em ;
+        background-position-x: -4.8em;
+
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main {
+        background-size: 133.2em;
+        background-position-x: -20.8em;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+    .projects .project-card {
+        height: 23em;
+        width: 30em;
+    }
+
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 96.2em;
+        background-position-x: -19.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+}
+
+
