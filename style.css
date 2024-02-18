@@ -355,13 +355,13 @@ footer .footer-bottom .social-icons {
 
 }
 
-@media (max-width:300px){
+@media (max-width:470px){
     body{
         font-size: 10px;
     }
     .main {
-        background-size: 96.2em;
-        background-position-x: -19.8em;
+        background-size: 81.2em;
+        background-position-x: -11.8em;
     }
     .projects .project-card {
         height: 27em;
@@ -373,5 +373,8 @@ footer .footer-bottom .social-icons {
     }
 
 }
+
+
+
 
 
