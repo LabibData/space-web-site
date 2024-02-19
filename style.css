@@ -101,7 +101,8 @@ header .navigation a:hover {
     min-height: 100vh;
     align-items: center;
     display: flex;
-    background: url(./imgs/Untitled-1.png) no-repeat;
+    background: url(./imgs/My_Self.png) no-repeat;
+    /* background-position-x: -164px; */
     background-size: cover;
     background-attachment: fixed;
 }
@@ -158,9 +159,15 @@ header .navigation a:hover {
     margin-left: -12px;
 }
 
+
+.fa-github {
+    color: black;
+}
+
+
 section {
 
-    padding: 100px 200px;
+    padding: 240px 200px;
     width: 100%;
     align-items: center;
 }
