@@ -3,13 +3,9 @@ const body = document.querySelector('body')
 const card = document.querySelector('.cards')
 const icon = document.querySelector('.fa-sun')
 const github = document.querySelector('.fa-github')
-// const more_details = document.querySelector('.more-details')
-
-
 
 toggle.addEventListener('click', function(){
     this.classList.toggle('fa-moon');
-
     if(this.classList.toggle('fa-sun'))
     {
         body.style.background = 'white';
