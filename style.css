@@ -242,6 +242,25 @@ section .pro_img {
 
 
 
+section .project-card-fv {
+    box-shadow: 0 10px 20px rgba(1 1 1 / 15%);
+    height: 21em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    transform: none;
+}
+
+section .project-card-fv .project-image {
+    transition: 0.7s ease;
+}
+
+section .project-card-fv .project-image:hover {
+    opacity: 0.6;
+}
+
 footer {
     background-color: #f4f4f4;
     color: #333;
@@ -330,6 +349,9 @@ footer .footer-bottom .social-icons {
         flex-direction: column;
         align-items: center;
     }
+    .fot {
+        padding: 40px 12px;
+    }
 
 }
 
@@ -352,10 +374,42 @@ footer .footer-bottom .social-icons {
         height: 23em;
         width: 30em;
     }
+    .fot {
+        padding: 40px 12px;
+    }
+    section .main .social-icons {
+        margin-left: -23px;
+    }
 
 }
 
-@media (max-width:470px){
+@media (max-width:469px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 29em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 12px;
+    }
+    .main .social-icons {
+        margin-left: -23px;
+    }
+
+}
+
+
+@media (max-width:414px){
     body{
         font-size: 10px;
     }
@@ -371,10 +425,290 @@ footer .footer-bottom .social-icons {
         font-size: 9px;
         font-weight: 600;
     }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 31px;
+    }
+    .main h3 {
+        font-size: 17px;
+    }
+}
 
+
+
+@media (max-width:382px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 29px;
+    }
+    .main h3 {
+        font-size: 15px;
+    }
+    
 }
 
 
 
 
 
+@media (max-width:367px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 29px;
+    }
+    .main h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:335px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 23px;
+    }
+    .main h3 {
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width:306px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 20px;
+    }
+    .main h3 {
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width:274px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 16px;
+    }
+    .main h3 {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:256px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 14px;
+    }
+    .main h3 {
+        font-size: 9px;
+    }
+}
+
+
+
+
+@media (max-width:256px){
+    body{
+        font-size: 10px;
+    }
+    .main {
+        background-size: 81.2em;
+        background-position-x: -11.8em;
+    }
+    .projects .project-card {
+        height: 27em;
+        width: 30em;
+    }
+    footer p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .fot {
+        padding: 40px 27px;
+    }
+    .main h2 {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .main h2 span {
+        font-size: 14px;
+    }
+    .main h3 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:256px){
+    .main {
+        padding: 42em 2em;
+    }
+}
+
+@media (max-width: 644px)
+{
+    .main .social-icons {
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 641px)
+{
+    section .project-card-fv {
+        height: 25.5em;
+    }
+}
+
+@media (max-width: 469px)
+{
+    section .project-card-fv {
+        height: 28.9em;
+    }
+}
+
+@media (max-width: 641px)
+{
+    section .project-card-fv {
+        height: 25.5em;
+    }
+}
+
+@media (max-width: 266px)
+{
+    section .project-card-fv {
+        height: 30.9em;
+    }
+}
