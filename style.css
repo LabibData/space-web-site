@@ -55,10 +55,23 @@ header nav ul li a.active {
 
 
 
-header i {
-    font-size: 22px;
+header .fa-sun {
     color: #f7dc0eeb;
+    padding-left: 14px;
+    padding-top: 10px;
+    font-size: 22px;
 }
+
+header .fa-moon {
+    padding-left: 14px;
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+
+
+
+
 
 header nav span {
     font-size: 18px;
@@ -85,17 +98,6 @@ header .navigation a{
 header .navigation a:hover {
     color: blueviolet;
 }
-
-
-header .fa-sun {
-    padding-left: 14px;
-    padding-top: 10px;
-}
-
-header .fa-moon {
-    padding-top: 10px;
-}
-
 
 
 .main {
