@@ -5,35 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="./script.js" defer></script>
     <title>Soufiane Labib</title>
 </head>
-<body>
+<body id="Home">
 
-    <header>
-        <a href="#" class="logo">Soufiane</a>
-        <nav class="navigation">
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#favorits">Favorits</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
     
+    <header>
+        <div class="logo">Soufiane</div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Home" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#favorits">Favorits</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-sun" id="toggleDark"></i>
+                </li> 
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div  class="divv"></div>
+            <div class="divv"></div>
+            <div class="divv"></div>
+        </label>
+    </header>
+
     <section class="main">
         <div>
-            <h2>Hello, I am Soufiane <br><span>Content Creator</span></h2>
+            <h2>Hello, I am Soufiane <span>Labib</span> <br><span>Data Science</span></h2>
             <h3>I build life changing  Courses</h3>
             <a href="#Projects" class="main-btn">View My CV</a>
             <div class="social-icons">
                 <a href=""><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i></a>
                 <a href=""><i class="fa-brands fa-twitter" style="color: #1DA1F2;"></i></a>
-                <a href=""><i class="fa-brands fa-github" style="color: rgb(53, 54, 56);"></i></a>
+                <a href="https://github.com/LabibData" target="_blank"><i class="fa-brands fa-github" style="color: rgb(53, 54, 56);"></i></a>
             </div>
         </div>
 
     </section>
 
-    <section class="cards" id = "services">
+    <section class="cards" id= "services">
         <h2 class="title">Services</h2>
         <div class="content">
             <div class="card">
@@ -75,9 +99,7 @@
                     </p>
                 </div>
             </div>
-        </div>
-
-        
+        </div>      
 
     </section>
 
