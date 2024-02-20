@@ -16,7 +16,7 @@
 
 
 header {
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.74);
     position: fixed;
     width: 100%;
     height: 70px;
@@ -31,7 +31,7 @@ header nav ul {
 }
 header nav ul li a {
     display: inline-block;
-    color: #000;
+    color: whitesmoke;
     padding: 5px 0;
     margin: 0 10px;
     border: 3px solid transparent;
@@ -60,6 +60,7 @@ header .fa-sun {
     padding-left: 14px;
     padding-top: 10px;
     font-size: 22px;
+    
 }
 
 header .fa-moon {
@@ -76,7 +77,7 @@ header nav span {
 
 header .logo {
     text-decoration: none;
-    color: #3a6cf4;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -310,7 +311,7 @@ section .pro_img {
 
 section .project-card-fv {
     box-shadow: 0 10px 20px rgba(1 1 1 / 15%);
-    height: 21em;
+    height: 29em;
     width: 23em;
     overflow: hidden;
     border-radius: 10px;
@@ -318,6 +319,11 @@ section .project-card-fv {
     transition: 0.7s ease;
     transform: none;
 }
+
+.project-category {
+    text-align: justify;
+}
+
 
 section .project-card-fv .project-image {
     transition: 0.7s ease;
@@ -464,7 +470,7 @@ footer .footer-bottom .social-icons {
         padding: 40px 0px;
     }
     .content .project-card-fv {
-        height: 25.5em;
+        height: 34em;
     }
     .main .social-icons {
         margin-left: -20px;
@@ -545,7 +551,7 @@ footer .footer-bottom .social-icons {
 @media (max-width: 350px)
 {
     .content .project-card-fv {
-        height: 26.5em;
+        height: 34em;
     }
 }
 
@@ -560,6 +566,9 @@ footer .footer-bottom .social-icons {
 
 @media (max-width: 315px)
 {
+    .content .project-card-fv {
+        height: 35em;
+    }
     .main .social-icons {
         margin-left: -20px;
     }
@@ -580,7 +589,7 @@ footer .footer-bottom .social-icons {
         background-position-x: -46.8em;
     }
     .content .project-card-fv {
-        height: 27.5em;
+        height: 37em;
     }
     .footer-right p {
         font-size: 9px;
@@ -592,6 +601,9 @@ footer .footer-bottom .social-icons {
 
 @media (max-width: 288px)
 {
+    .content .project-card-fv {
+        height: 38.5em;
+    }
     .main {
         padding: 31em 3em;
     }
@@ -609,7 +621,7 @@ footer .footer-bottom .social-icons {
         padding: 28em 3em;
     }
     .content .project-card-fv {
-        height: 28.8em;
+        height: 40.8em;
     }
     .footer-right p {
         font-size: 5px;
@@ -621,11 +633,21 @@ footer .footer-bottom .social-icons {
 
 @media (max-width: 230px)
 {
+    .content .project-card-fv {
+        height: 45.5em;
+    }
     .main h2 {
         font-size: 11px;
     }
     .main h2 span {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 221px)
+{
+    .content .project-card-fv {
+        height: 49em;
     }
 }
 

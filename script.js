@@ -3,6 +3,8 @@ const body = document.querySelector('body')
 const card = document.querySelector('.cards')
 const icon = document.querySelector('.fa-sun')
 const github = document.querySelector('.fa-github')
+const chang = document.querySelector('.tst')
+
 
 toggle.addEventListener('click', function(){
     this.classList.toggle('fa-moon');
@@ -21,6 +23,7 @@ toggle.addEventListener('click', function(){
     }
     else 
     {
+        chang.style.background = '#5e5e5e';
         body.style.background = 'black';
         body.style.color = 'white';
         card.style.color = 'black';
